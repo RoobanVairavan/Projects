@@ -1,0 +1,63 @@
+2023-04-10 12:28:02,828 [main] INFO  c.s.b.BadmintonClubApplication                : Starting BadmintonClubApplication using Java 17.0.6 with PID 14028 (C:\Users\EE212696\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\Badminton_Club\Badminton_Club\target\classes started by ee212696 in C:\Users\EE212696\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\Badminton_Club\Badminton_Club)
+2023-04-10 12:28:02,836 [main] INFO  c.s.b.BadmintonClubApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-04-10 12:28:03,636 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-10 12:28:03,705 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 61 ms. Found 4 JPA repository interfaces.
+2023-04-10 12:28:04,139 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer       : Tomcat initialized with port(s): 8080 (http)
+2023-04-10 12:28:04,151 [main] INFO  o.apache.catalina.core.StandardService        : Starting service [Tomcat]
+2023-04-10 12:28:04,151 [main] INFO  org.apache.catalina.core.StandardEngine       : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-10 12:28:04,228 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]            : Initializing Spring embedded WebApplicationContext
+2023-04-10 12:28:04,230 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1357 ms
+2023-04-10 12:28:04,422 [main] INFO  o.hibernate.jpa.internal.util.LogHelper       : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-10 12:28:04,471 [main] INFO  org.hibernate.Version                         : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-10 12:28:04,730 [main] INFO  com.zaxxer.hikari.HikariDataSource            : HikariPool-1 - Starting...
+2023-04-10 12:28:04,950 [main] INFO  com.zaxxer.hikari.pool.HikariPool             : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f5ae29e
+2023-04-10 12:28:04,951 [main] INFO  com.zaxxer.hikari.HikariDataSource            : HikariPool-1 - Start completed.
+2023-04-10 12:28:04,969 [main] INFO  SQL dialect                                   : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-10 12:28:04,970 [main] WARN  org.hibernate.orm.deprecation                 : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-04-10 12:28:05,630 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator            : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-10 12:28:05,638 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-10 12:28:05,943 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-10 12:28:06,185 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver           : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-04-10 12:28:06,218 [main] INFO  o.s.s.web.DefaultSecurityFilterChain          : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@ce5a2ea, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37a0c3c6, org.springframework.security.web.context.SecurityContextHolderFilter@321c01c2, org.springframework.security.web.header.HeaderWriterFilter@7bb888b7, org.springframework.web.filter.CorsFilter@5de32e00, org.springframework.security.web.authentication.logout.LogoutFilter@7c35d7d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@648bfebe, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2a49753, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@219ec4b6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79169472, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5481f204, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@cdc09d, org.springframework.security.web.access.ExceptionTranslationFilter@45775a15, org.springframework.security.web.access.intercept.AuthorizationFilter@130ad58d]
+2023-04-10 12:28:06,421 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-04-10 12:28:06,424 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-10 12:28:06,426 [main] INFO  com.zaxxer.hikari.HikariDataSource            : HikariPool-1 - Shutdown initiated...
+2023-04-10 12:28:06,431 [main] INFO  com.zaxxer.hikari.HikariDataSource            : HikariPool-1 - Shutdown completed.
+2023-04-10 12:28:06,433 [main] INFO  o.apache.catalina.core.StandardService        : Stopping service [Tomcat]
+2023-04-10 12:28:06,448 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger     : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-10 12:28:06,462 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter        : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-04-10 15:14:58,151 [main] INFO  c.s.b.BadmintonClubApplicationTests           : Starting BadmintonClubApplicationTests using Java 17.0.6 with PID 3488 (started by ee212696 in C:\Users\EE212696\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\Badminton_Club\Badminton_Club)
+2023-04-10 15:14:58,153 [main] INFO  c.s.b.BadmintonClubApplicationTests           : No active profile set, falling back to 1 default profile: "default"
+2023-04-10 15:14:59,063 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate     : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-10 15:14:59,166 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate     : Finished Spring Data repository scanning in 94 ms. Found 4 JPA repository interfaces.
+2023-04-10 15:14:59,631 [main] INFO  o.hibernate.jpa.internal.util.LogHelper       : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-10 15:14:59,673 [main] INFO  org.hibernate.Version                         : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-10 15:14:59,975 [main] INFO  com.zaxxer.hikari.HikariDataSource            : HikariPool-1 - Starting...
+2023-04-10 15:15:00,290 [main] INFO  com.zaxxer.hikari.pool.HikariPool             : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b3feb26
+2023-04-10 15:15:00,293 [main] INFO  com.zaxxer.hikari.HikariDataSource            : HikariPool-1 - Start completed.
+2023-04-10 15:15:00,308 [main] INFO  SQL dialect                                   : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-10 15:15:00,311 [main] WARN  org.hibernate.orm.deprecation                 : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-04-10 15:15:01,095 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator            : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-10 15:15:01,104 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-10 15:15:01,542 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-10 15:15:02,010 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver           : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-04-10 15:15:02,054 [main] INFO  o.s.s.web.DefaultSecurityFilterChain          : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@718e700c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b5e45bc, org.springframework.security.web.context.SecurityContextHolderFilter@9e092b5, org.springframework.security.web.header.HeaderWriterFilter@3af6d7a7, org.springframework.web.filter.CorsFilter@10c1682b, org.springframework.security.web.authentication.logout.LogoutFilter@5e0602ff, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@28705150, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3a388769, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2cf97875, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@158cb50a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25134e01, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e7563f6, org.springframework.security.web.access.ExceptionTranslationFilter@74ed1d35, org.springframework.security.web.access.intercept.AuthorizationFilter@425376cc]
+2023-04-10 15:15:02,417 [main] INFO  c.s.b.BadmintonClubApplicationTests           : Started BadmintonClubApplicationTests in 4.575 seconds (process running for 5.961)
+2023-04-10 15:15:02,878 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-10 15:15:02,881 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource            : HikariPool-1 - Shutdown initiated...
+2023-04-10 15:15:02,890 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource            : HikariPool-1 - Shutdown completed.
